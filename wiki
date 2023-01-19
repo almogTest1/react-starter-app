@@ -1,0 +1,35 @@
+=======================
+deploy react node app:
+=======================
+https://github.com/cyclic-software/starter-react-app
+git clone git@github.com:cyclic-software/starter-react-app.git
+git install express
+
+npm run dev
+http://localhost:3000
+
+npm run build
+
+serve -s build
+
+npm run start
+Runs the app in the production mode.
+
+
+upload to git:
+	git init
+	git add .
+	git commit -m "upload files"
+	git remote add origin git@github.com:almogTest1/react-starter-app.git
+	git push  --set upstream origin master
+
+
+connect to cyclic to github/{reponame}
+deploy
+get url:
+	https://repulsive-pear-trench-coat.cyclic.app/
+	
+	https://app.cyclic.sh/#/app/almogtest1-react-starter-app/envs
+	Custom Subdomain change -> almogreact.cyclic.app
+
+after change its in: https://almogreact.cyclic.app/
